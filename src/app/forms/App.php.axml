@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="App">
+    
+  <method name="doConstruct">
+      <comment text="Предзагрузка ресурсов." text-type="string"/>
+      <openMedia autoplay="" autoplay-type="flag" id="general" id-type="string" source="res://.data/audio/sfx_die.wav" source-type="string"/>
+      <openMedia autoplay="" autoplay-type="flag" id="general" id-type="string" source="res://.data/audio/sfx_point.wav" source-type="string"/>
+      <openMedia autoplay="" autoplay-type="flag" id="general" id-type="string" source="res://.data/audio/sfx_wing.wav" source-type="string"/>
+    </method>
+  </class>
+</root>

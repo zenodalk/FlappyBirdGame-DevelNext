@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="GameOver">
+    
+  <method name="doLabelAltClick">
+      <gameLoadScene dest="Level1" dest-type="form" source="originForm('App')-&gt;game" source-type="object"/>
+    </method>
+  </class>
+</root>

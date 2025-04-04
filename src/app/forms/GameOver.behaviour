@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="labelAlt">
+    <behaviour color="#ffffcc" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="label">
+    <behaviour animated="1" delay="0" duration="1000" maxOpacity="1" minOpacity="0.14146341463415" repeatCount="-1" type="behaviour\custom\BlinkAnimationBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

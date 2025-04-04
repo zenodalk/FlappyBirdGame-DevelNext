@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512" prefWidth="464" styleClass="">
+  <children>
+    <CustomNode type="Level1.image" x="0" y="0"/>
+    <CustomNode type="Proto.background" x="0" y="400"/>
+    <LabelEx alignment="CENTER" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="120" layoutY="176" prefHeight="58.5234375" prefWidth="229.732421875" styleClass="label " text="Game Over" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="44"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="184" layoutY="232" prefHeight="35.912109375" prefWidth="200.11376953125" styleClass="label " text="Начать с начала" textAlignment="LEFT" textFill="#ffff4d" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="27"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelAlt" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="14.975609756098" id="scoreLabel" layoutX="200" layoutY="88" prefHeight="53.203125" prefWidth="82.983422256098" styleClass="label " text="0" textAlignment="LEFT" textFill="#ffff66" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="40"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/coin.png" id="data-scoreLabel" visible="1"/>
+  </children>
+</AnchorPane>

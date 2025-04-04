@@ -1,0 +1,35 @@
+{
+  "props": [],
+  "components": {
+    "scoreUpdater": {
+      "type": "script\\TimerScript",
+      "x": 48,
+      "y": 112,
+      "props": {
+        "interval": 100,
+        "repeatable": "1",
+        "autoStart": "1"
+      }
+    },
+    "tubeGenerator": {
+      "type": "script\\TimerScript",
+      "x": 40,
+      "y": 24,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": true
+      }
+    },
+    "coinGenerator": {
+      "type": "script\\TimerScript",
+      "x": 152,
+      "y": 24,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": "1"
+      }
+    }
+  }
+}

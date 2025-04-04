@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="bottomTube">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[-5,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="topTube">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[-5,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="bird">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="NONE" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="coin">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="THING" startVelocity="[-5,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="background">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="startLabel">
+    <behaviour animated="1" delay="0" duration="1000" maxOpacity="1" minOpacity="0.3" repeatCount="-1" type="behaviour\custom\BlinkAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="bigCoin">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="THING" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+</behaviours>

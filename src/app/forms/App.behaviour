@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="game">
+    <behaviour autoplay="1" cacheScenes="" gravityDirection="DOWN" gravityType="ZERO" initialScene="Level1" type="behaviour\custom\GameSceneBehaviour"/>
+  </target>
+</behaviours>
